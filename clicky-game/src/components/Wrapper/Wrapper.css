@@ -1,0 +1,11 @@
+.wrapper {
+  background: rgb(175, 175, 175);
+  background-image: url('https://www.syfy.com/sites/syfy/files/styles/2480x1400/public/2019/04/hey_arnold.jpg');
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 50px;
+}
