@@ -22,7 +22,6 @@ class App extends Component {
   state = {
     friends,
     currentScore: 0,
-    topScore: 0,
     rightWrong: "",
     clicked: [],
   };
@@ -54,7 +53,6 @@ class App extends Component {
   handleReset = () => {
     this.setState({
       currentScore: 0,
-      topScore: this.state.topScore,
       rightWrong: "MOVE IT FOOTBALL HEAD!",
       clicked: []
     });
@@ -72,7 +70,6 @@ class App extends Component {
         <Nav
           title="HEY ARNOLD Clicky Game"
           score={this.state.currentScore}
-          topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}
         />
 
